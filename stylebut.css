@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css?family=Julius+Sans+One");
+html,
+body {
+  height: 100%;
+  color: #ffffff;
+  background-color: #fafaf8;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2 {
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  margin: 1.8em 0;
+  font-size: 1.3em;
+}
+
+.btns-container {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.btn {  
+    font-family: 'Biryani', sans-serif;
+  display: inline-block;
+  padding: 20px 40px;
+  border: 1px solid transparent;
+  border-radius: 0%;
+  box-sizing: border-box;
+  font-size: 1em;
+  text-align: center;
+  text-decoration: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+ white-space: nowrap;
+}
+
+/* Primary Button and variant
+   -------------------------- */
+.btn-primary {
+  color: #ffffff;
+  border-color: #e9204f;
+  background-color: #e9204f;
+  background-size: 0 100%;
+  background-image: linear-gradient(to left, #e9204f, #e9204f);
+  background-repeat: no-repeat;
+  transition: all 0.5s;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  border-color: #e9204f;
+  background-color: #e9204f;
+  background-image: linear-gradient(to right, #e9204f, #e9204f);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  transition: all 0.5s;
+}
+
+/* Secondary Button and variant
+   ---------------------------- */
+.btn-secondary {
+    color: #ffffff;
+  border-color: #e9204f;
+  background-color:transparent;
+  background-size: 0 100%;
+  background-image: linear-gradient(to left, #e9204f, #e9204f);
+  background-repeat: no-repeat;
+  transition: all 0.5s;
+}
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
+  color: #ffffff;
+  background-color: transparent;
+  background-image: linear-gradient(to right, #e9204f, #e9204f);
+  background-repeat: no-repeat;
+  border: 1px solid #e9204f;
+  background-size: 100% 100%;
+  transition: all 0.5s;
+
+}
+#mainjumbo{
+  background: url("hero_02.jpg")no-repeat top right fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right:22px;
+  padding-left: 22px;
+color: white;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+  color:#e9204f;
+}
